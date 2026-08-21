@@ -1,0 +1,14 @@
+{
+    "title": "Technical Implementation Guidance for NIS2 Directive",
+    "organization": "European Union Agency for Cybersecurity (ENISA)",
+    "crisis_type": "Cybersecurity Risk Management Measures",
+    "country": "EU Member States",
+    "report_date": "June 2025, version 1.0",
+    "summary": "This document provides guidance on implementing technical and methodological requirements of cybersecurity risk-management measures under the NIS2 Directive at European Union level.",
+    "description": "The guidance covers policy on network and information system security, risk management, incident handling, business continuity, supply chain security, acquisition and maintenance of network and information systems, assessment of effectiveness, cyber hygiene, human resources security, access control, asset management, and environmental and physical security. It includes mappings to industry good practices, standards, and national frameworks.",
+    "causes": "The need for detailed guidance on implementing cybersecurity measures at the European level due to cross-border nature of some sectors.",
+    "actions": "ENISA worked with the European Commission and the Network and Information Systems Cooperation Group, held public consultations, and mapped requirements to industry standards.",
+    "lessons_learned": "Regular reviews are needed to keep up with changing standards and frameworks.",
+    "recommendations": "Entities should check their jurisdiction and follow national competent authorities' guidance.",
+    "filename": "ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Best Practices for Cyber Crisis Management",
+    "organization": "ENISA (European Union Agency for Cybersecurity)",
+    "crisis_type": "Cyber crisis",
+    "country": "EU member states",
+    "report_date": "February 2024",
+    "summary": "This report outlines best practices for managing cyber crises at the operational level in the EU. It covers prevention, preparedness, response, and recovery phases.",
+    "description": "The study highlights the complexities of defining a cyber crisis and emphasizes the importance of coordination among various actors, including ENISA, member states, and relevant EU bodies. Best practices are provided for each phase of the cyber crisis management cycle.",
+    "causes": "Subjectivity in defining cyber crises; transboundary nature of cyber incidents; varying risk appetites across EU member states",
+    "actions": "Adopt national definitions, develop security standards, create prevention programs, define governance structures, map critical assets, establish communication channels, formalize roles and escalation criteria, test plans through exercises, set up training sessions, develop communication strategies, mobilize trusted providers, support crisis communication, implement business resumption plans",
+    "lessons_learned": "Cyber crises are complex and require a coordinated approach; definitions vary among member states; best practices evolve with new regulations like NIS2.",
+    "recommendations": "Continuously update security standards, enhance cross-border cooperation, integrate all-hazards approaches, ensure regular training and testing of response plans.",
+    "filename": "ENISA Study Best Practices Cyber Crisis Management.pdf"
+}

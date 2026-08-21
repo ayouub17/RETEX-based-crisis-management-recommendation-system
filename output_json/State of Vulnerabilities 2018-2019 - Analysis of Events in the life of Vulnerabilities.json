@@ -1,0 +1,14 @@
+{
+    "title": "State of Vulnerabilities 2018/2019",
+    "organization": "European Union Agency for Cybersecurity (ENISA)",
+    "crisis_type": "Vulnerability Analysis",
+    "country": "",
+    "report_date": "December 2019",
+    "summary": "The report provides an analysis of vulnerabilities in the cybersecurity ecosystem, highlighting differences between CVSS v2 and v3 systems, inconsistencies among sources, and the impact of defense strategies. It aims to offer insights into the reliability and accuracy of vulnerability information.",
+    "description": "This document analyzes vulnerabilities across different sectors using a combination of established taxonomies and methodologies. The report covers aspects such as the lifecycle of vulnerabilities, their economic value, and the effectiveness of current threat management practices.",
+    "causes": "Inconsistencies in data sources, differences between CVSS v2 and v3 systems, incomplete datasets, and varying quality of analysis by different stakeholders contribute to the challenges in managing cybersecurity threats.",
+    "actions": "Standardize vulnerability descriptions for better communication and analysis. Enhance collaboration among vendors, security researchers, and threat intelligence services to improve threat management practices.",
+    "lessons_learned": "Differences between CVSS v2 and v3 metrics can influence risk assessment. Incomplete datasets may lead to skewed conclusions about the severity of vulnerabilities.",
+    "recommendations": "Promote standardization in vulnerability reporting. Encourage more comprehensive and accurate data collection and analysis to support effective threat management.",
+    "filename": "State of Vulnerabilities 2018-2019 - Analysis of Events in the life of Vulnerabilities.pdf"
+}

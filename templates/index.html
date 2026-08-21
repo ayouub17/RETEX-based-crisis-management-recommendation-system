@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RETEX | Gestion de crise</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="container">
+      <nav class="topbar" aria-label="Navigation principale">
+        <a class="brand" href="/" aria-label="CrisisLens RETEX — accueil">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 4 42 14v20L24 44 6 34V14L24 4Z" fill="currentColor" opacity=".16"/>
+            <path d="M24 10 36 17v14l-12 7-12-7V17l12-7Z" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M24 17v8m0 6h.01" stroke="currentColor" stroke-linecap="round" stroke-width="3"/>
+          </svg>
+          <span><strong>CrisisLens</strong><small>RETEX INTELLIGENCE</small></span>
+        </a>
+        <span class="status-pill"><i></i>Système opérationnel</span>
+      </nav>
+      <header class="hero">
+        <p class="eyebrow">RECOMMANDATION INTELLIGENTE · RETEX</p>
+        <h1>Transformez l'expérience<br>en décision.</h1>
+        <p class="lead">CrisisLens analyse les retours d'expérience pertinents pour vous aider à coordonner une réponse claire, rapide et fondée sur des cas réels.</p>
+      </header>
+
+      <section class="search-panel" aria-labelledby="form-title">
+        <h2 id="form-title">Analyser une nouvelle crise</h2>
+        <form id="recommendation-form">
+          <label for="description">Quelle situation devez-vous gérer ?</label>
+          <textarea id="description" minlength="10" required placeholder="Ex. Fuite de données clients après une cyberattaque : systèmes impactés, risques identifiés et premières mesures prises…"></textarea>
+          <div class="form-row">
+            <label>Cas RETEX à analyser
+              <select id="top-k"><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option></select>
+            </label>
+            <button type="submit"><span class="button-label">Analyser la crise</span><span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+      </section>
+
+      <p id="status" class="status" aria-live="polite"></p>
+      <section id="results" class="results" hidden>
+        <div class="result-heading"><p class="eyebrow">SYNTHÈSE OPÉRATIONNELLE</p><h2>Votre plan de réponse</h2><p>Propositions extraites des retours d'expérience les plus proches.</p></div>
+        <div class="recommendation-grid">
+          <article class="recommendation-card"><h3>Actions prioritaires</h3><ol id="actions"></ol></article>
+          <article class="recommendation-card"><h3>Recommandations</h3><ol id="recommendations"></ol></article>
+        </div>
+        <div class="cases-heading"><p class="eyebrow">TRAÇABILITÉ</p><h2>Cas similaires analysés</h2></div>
+        <div id="cases" class="case-grid"></div>
+      </section>
+    </main>
+    <template id="empty-template"><p class="empty">Aucun élément renseigné dans les RETEX sélectionnés.</p></template>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "title": "2025 NIS Investments",
+    "organization": "ENISA",
+    "crisis_type": "Cybersecurity Investment Trends and Challenges",
+    "country": "European Union",
+    "report_date": "2025",
+    "summary": "The report discusses the current trends in cybersecurity investments, focusing on shifts from people to technology and services. It highlights challenges such as talent crunch, compliance, patching delays, supply chain risks, and ransomware threats.",
+    "description": "This annual study by ENISA analyzes how EU organizations invest in cybersecurity measures based on data collected from 1080 professionals across the NIS sectors of high criticality.",
+    "causes": "Persistent skills shortages, regulatory requirements (NIS2), technological advancements, supply chain vulnerabilities",
+    "actions": "Organizations are shifting investment towards technology and services rather than expanding internal cybersecurity teams. Compliance is a key driver but not the only one, with an emphasis on improving detection and response capabilities.",
+    "lessons_learned": "Patch management remains challenging despite regulatory efforts. Supply chain risks increase due to reliance on resource-constrained SMEs for ICT and security services.",
+    "recommendations": "Further investigation into strategic choices in cybersecurity budgeting and investment is needed, given the skills shortage issues. Enhancing supply chain risk management should be prioritized.",
+    "filename": "NIS%20Investments%202025%20-%20Main%20report.pdf"
+}

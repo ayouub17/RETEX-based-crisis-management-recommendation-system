@@ -1,0 +1,61 @@
+const form = document.querySelector("#recommendation-form");
+const statusMessage = document.querySelector("#status");
+const results = document.querySelector("#results");
+const submitButton = form.querySelector("button");
+
+function addItems(containerId, items) {
+  const container = document.querySelector(`#${containerId}`);
+  container.replaceChildren();
+  if (!items.length) {
+    container.append(document.querySelector("#empty-template").content.cloneNode(true));
+    return;
+  }
+  items.forEach((item) => {
+    const element = document.createElement("li");
+    element.textContent = item.text;
+    container.append(element);
+  });
+}
+
+function displayCases(cases) {
+  const container = document.querySelector("#cases");
+  container.replaceChildren();
+  cases.forEach((item) => {
+    const card = document.createElement("article");
+    card.className = "case";
+    const title = item.title || "RETEX sans titre";
+    card.innerHTML = `<span class="score">Similarité ${item.similarity_score.toFixed(3)}</span><h3></h3><p></p><details><summary>Voir les réponses apportées</summary><p><strong>Actions :</strong> </p><p><strong>Recommandations :</strong> </p></details>`;
+    card.querySelector("h3").textContent = title;
+    card.querySelector("article p")?.textContent;
+    card.querySelector("h3 + p").textContent = item.organization || "Organisation non renseignée";
+    const details = card.querySelectorAll("details p");
+    details[0].append(item.actions || "Non renseignées");
+    details[1].append(item.recommendations || "Non renseignées");
+    container.append(card);
+  });
+}
+
+form.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const description = document.querySelector("#description").value.trim();
+  statusMessage.className = "status";
+  statusMessage.textContent = "Analyse sémantique des RETEX en cours…";
+  submitButton.disabled = true;
+  try {
+    const response = await fetch("/api/recommendations", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ description, top_k: Number(document.querySelector("#top-k").value), limit: 10 }),
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.detail || "Une erreur est survenue.");
+    addItems("actions", data.actions);
+    addItems("recommendations", data.recommendations);
+    displayCases(data.similar_cases);
+    results.hidden = false;
+    statusMessage.textContent = `${data.similar_cases.length} RETEX similaires analysés.`;
+    results.scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (error) {
+    statusMessage.className = "status error";
+    statusMessage.textContent = error.message;
+  } finally { submitButton.disabled = false; }
+});

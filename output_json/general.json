@@ -1,0 +1,118 @@
+[{
+  "source": "Medias24",
+  "title": "Crise du Covid-19 : Round-up des mesures décidées à ce jour pour les entreprises",
+  "crisis_type": "Health Crisis / Business Continuity",
+  "organization": "Comité de Veille Économique (CVE)",
+  "country": "Morocco",
+  "report_date": "2020-04-21",
+  "summary": "À la suite de la pandémie de Covid-19, le Comité de Veille Économique a mis en place un ensemble de mesures destinées à limiter les impacts économiques sur les entreprises marocaines. Les mesures portent principalement sur le soutien financier, le maintien de l'emploi, les reports de charges sociales et fiscales ainsi que le soutien à la trésorerie des entreprises.",
+  "description": "La crise sanitaire de la Covid-19 a fortement perturbé l'activité économique au Maroc. Pour accompagner les entreprises, le Comité de Veille Économique a coordonné plusieurs dispositifs d'aide impliquant la CNSS, la Direction Générale des Impôts, les banques et la Caisse Centrale de Garantie afin d'assurer la continuité des activités économiques et de préserver l'emploi.",
+  "causes": "Pandémie mondiale de Covid-19 provoquant un ralentissement économique, une baisse du chiffre d'affaires des entreprises et des difficultés de trésorerie.",
+  "impacts": "Baisse des revenus des entreprises, suspension ou ralentissement des activités, risque de licenciements, difficultés de paiement des charges sociales et fiscales, manque de liquidités.",
+  "actions": [
+    "Suspension du paiement des cotisations CNSS.",
+    "Versement d'une indemnité mensuelle aux salariés en arrêt temporaire.",
+    "Report des échéances fiscales pour les entreprises éligibles.",
+    "Mise en place du mécanisme de garantie Damane Oxygène.",
+    "Octroi de crédits de trésorerie garantis par l'État.",
+    "Création d'un crédit à taux zéro pour les travailleurs indépendants.",
+    "Mise en place d'un moratoire sur certains crédits bancaires.",
+    "Suivi régulier de la situation économique par le Comité de Veille Économique."
+  ],
+  "results": "Les entreprises ont bénéficié d'un soutien financier leur permettant de préserver leur trésorerie, de maintenir une partie des emplois et d'assurer la continuité de leurs activités durant la crise.",
+  "lessons_learned": [
+    "Une cellule nationale de gestion de crise permet une prise de décision rapide.",
+    "La coordination entre l'État, les banques et les organismes sociaux est essentielle.",
+    "Les mécanismes de garantie facilitent l'accès au financement en période de crise.",
+    "Les critères d'éligibilité doivent rester suffisamment flexibles pour couvrir un maximum d'entreprises."
+  ],
+  "recommendations": [
+    "Mettre en place un Plan de Continuité d'Activité (PCA).",
+    "Constituer un fonds d'urgence pour les entreprises.",
+    "Digitaliser les procédures administratives.",
+    "Renforcer les dispositifs de gestion des risques.",
+    "Développer un système national d'alerte économique.",
+    "Effectuer régulièrement des RETEX après chaque crise majeure."
+  ],
+  "stakeholders": [
+    "Comité de Veille Économique",
+    "CNSS",
+    "Direction Générale des Impôts",
+    "Banques marocaines",
+    "Caisse Centrale de Garantie",
+    "Entreprises marocaines"
+  ],
+  "keywords": [
+    "Covid-19",
+    "Business Continuity",
+    "CNSS",
+    "Damane Oxygène",
+    "Morocco",
+    "Economic Crisis",
+    "Treasury",
+    "Government Support"
+  ]
+},
+{
+    "source": "CNSS",
+    "title": "Cyberattaque contre la CNSS : fuite de données personnelles",
+    "organization": "Caisse Nationale de Sécurité Sociale (CNSS)",
+    "crisis_type": "Cyber Crisis",
+    "country": "Morocco",
+    "report_date": "2025-04-08",
+    "summary": "Le 8 avril 2025, la CNSS a été victime d'une série de cyberattaques ayant entraîné une fuite de données personnelles. L'origine et l'étendue de l'incident étaient en cours d'investigation. Certaines informations diffusées sur les réseaux sociaux étaient inexactes ou manipulées. La CNSS a activé un plan de réponse afin de contenir l'attaque et renforcer la sécurité de son infrastructure.",
+    "description": "Une série d'attaques informatiques a ciblé les systèmes d'information de la CNSS afin de contourner les dispositifs de sécurité existants. Ces attaques ont provoqué une fuite de données personnelles concernant des assurés et des affiliés. L'incident a nécessité la mobilisation des équipes techniques ainsi que la collaboration avec les autorités compétentes pour limiter les impacts et poursuivre les investigations.",
+    "causes": [
+        "Attaques cybernétiques ciblant les systèmes d'information de la CNSS.",
+        "Compromission ayant permis une fuite de données personnelles.",
+        "Origine exacte de l'attaque toujours en cours d'investigation."
+    ],
+    "impacts": [
+        "Fuite de données personnelles.",
+        "Diffusion d'informations sur les réseaux sociaux.",
+        "Propagation de données parfois fausses, inexactes ou incomplètes.",
+        "Restriction temporaire de certaines fonctionnalités des portails CNSS.",
+        "Risque accru de phishing et d'usurpation d'identité."
+    ],
+    "actions": [
+        "Activation du dispositif de gestion de crise.",
+        "Collaboration avec les autorités compétentes.",
+        "Déploiement de mesures de sécurité supplémentaires.",
+        "Renforcement de l'infrastructure informatique.",
+        "Restriction temporaire de certaines fonctionnalités des portails.",
+        "Analyse de l'impact de l'attaque.",
+        "Communication officielle auprès des assurés et affiliés."
+    ],
+    "results": [
+        "Limitation de l'étendue de l'attaque.",
+        "Sécurisation progressive des systèmes d'information.",
+        "Poursuite des investigations afin d'évaluer l'impact réel."
+    ],
+    "lessons_learned": [
+        "Les infrastructures critiques doivent être surveillées en continu.",
+        "Une communication officielle rapide permet de limiter la désinformation.",
+        "La collaboration avec les autorités améliore la réponse aux incidents.",
+        "Les plans de réponse aux incidents doivent inclure la protection des données personnelles."
+    ],
+    "recommendations": [
+        "Renforcer les contrôles d'accès et l'authentification multifacteur.",
+        "Mettre en place un SOC fonctionnant 24h/24.",
+        "Effectuer régulièrement des audits de sécurité et des tests d'intrusion.",
+        "Sensibiliser les utilisateurs aux attaques de phishing.",
+        "Changer régulièrement les mots de passe.",
+        "Ne jamais communiquer ses identifiants.",
+        "Consulter uniquement les communications officielles de la CNSS.",
+        "Maintenir un plan de gestion des incidents et un plan de reprise d'activité."
+    ],
+    "stakeholders": [
+        "CNSS",
+        "Assurés",
+        "Affiliés",
+        "Autorités compétentes",
+        "Équipes de cybersécurité"
+    ],
+    "severity": "High",
+    "status": "Under Investigation",
+    "url": ""
+}
+]

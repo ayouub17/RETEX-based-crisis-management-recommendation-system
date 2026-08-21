@@ -1,0 +1,14 @@
+{
+    "title": "Guide de cybersécurité pour PME",
+    "organization": "Agence européenne des systèmes de sécurité informatique (ENISA)",
+    "crisis_type": "Pas mentionné",
+    "country": "",
+    "report_date": "Non spécifié",
+    "summary": "Ce guide vise à aider les PME à renforcer leur cybersécurité en offrant 12 étapes pratiques. Il couvre des aspects tels que le développement d'une culture de cybersécurité, l'assurance du respect des règles par les employés, la mise en place de politiques de sécurité, et la sécurisation des appareils et réseaux.",
+    "description": "Le guide souligne l'importance de la cybersécurité pour le succès des PME, notamment dans un contexte où ces entreprises ont dû s'adapter à la pandémie. Il propose une série de mesures concrètes pour améliorer la cybersécurité et prévenir les menaces.",
+    "causes": "Pas mentionné",
+    "actions": "Développer une culture de cybersécurité, assigner des responsabilités, gagner l'adhésion des employés, publier des politiques de sécurité claires, protéger les données personnelles, effectuer des audits de cybersécurité régulièrement, fournir une formation continue aux employés, développer un plan de réponse à incident, sécuriser les accès et appareils, garder le logiciel à jour, utiliser des outils antivirus et de protection web, encrypter la data, mettre en place des pare-feu, réviser régulièrement les solutions d'accès distante, gérer les appareils mobiles, effectuer des sauvegardes sécurisées, et sécuriser les sites Web.",
+    "lessons_learned": "Pas mentionné",
+    "recommendations": "Les PME doivent s'engager activement dans la cybersécurité en mettant en place des politiques claires, en formant régulièrement leurs employés, et en utilisant des outils de protection appropriés. Elles devraient également partager les informations sur les menaces pour améliorer leur compréhension des risques.",
+    "filename": "ENISA Cybersecurity guide for SMEs-online-single_page.pdf"
+}

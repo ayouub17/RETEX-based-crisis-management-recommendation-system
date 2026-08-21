@@ -1,0 +1,14 @@
+{
+    "title": "ENISA NIS360 - Cybersecurity Maturity and Criticality of High-Criticality Sectors",
+    "organization": "European Union Agency for Cybersecurity (ENISA)",
+    "crisis_type": "Cybersecurity",
+    "country": "European Union",
+    "report_date": "May 2026",
+    "summary": "This report assesses the cybersecurity maturity and criticality of high-criticality sectors under the NIS2 directive. Maturity is measured by the effectiveness and consistency in managing cybersecurity risks, while criticality considers factors like economic importance and severe consequences from attacks.",
+    "description": "ENISA uses a structured methodology to evaluate the maturity and criticality of nine sectors: Energy, Digital Infrastructure, Transport, Finance, Health, ICT Service Management, Public Administrations, Space, and Drinking/Waste Water. The report highlights improvements in cybersecurity across sectors but notes uneven progress.",
+    "causes": "Improvements due to evolving policy requirements, increased political attention, and advancements in cybersecurity legislation. Factors such as skill shortages, sector-specific characteristics, and organizational size contribute to variations in maturity.",
+    "actions": "ENISA's structured methodology for assessing maturity and criticality includes evaluating legislative effectiveness, company preparedness, authority institutional capacity, and the effectiveness of sectoral ecosystem structures. Regular updates ensure current state assessments.",
+    "lessons_learned": "Despite improvements, maturity remains uneven across sectors. Skill shortages and sector-specific challenges contribute to these differences. Improved information sharing, stronger collaboration, and better risk management are key drivers for positive development in some sectors.",
+    "recommendations": "More sectors may move out of the 'risk zone' as cybersecurity legislation, perceived cyber risk, threat exposure, interdependencies, and ecosystem expectations continue to drive investment and preparedness efforts.",
+    "filename": "ENISA%20NIS360%202026.pdf"
+}
