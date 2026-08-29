@@ -10,7 +10,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from main import find_similar_retex
+from main import find_similar_retex, get_dashboard_stats
 from recommendations.engine import RecommendationEngine
 
 
@@ -38,6 +38,7 @@ class RecommendationResponse(BaseModel):
     similar_cases: list[dict[str, Any]]
     actions: list[dict[str, Any]]
     recommendations: list[dict[str, Any]]
+    stats: dict[str, Any] | None = None
 
 
 @app.get("/", include_in_schema=False)
@@ -52,13 +53,24 @@ def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
+@app.get("/api/dashboard")
+def dashboard_stats() -> dict[str, Any]:
+    """Expose the current RETEX corpus metrics used by the dashboard."""
+    try:
+        return get_dashboard_stats()
+    except (FileNotFoundError, ValueError, RuntimeError) as error:
+        raise HTTPException(status_code=400, detail=str(error)) from error
+
+
 @app.post("/api/recommendations", response_model=RecommendationResponse)
 def get_recommendations(payload: CrisisRequest) -> dict[str, Any]:
     """Find similar RETEX and aggregate their operational proposals."""
     try:
         similar_cases = find_similar_retex(payload.description, payload.top_k)
+        if not similar_cases:
+            similar_cases = []
         proposals = RecommendationEngine().recommend(similar_cases, payload.limit)
     except (FileNotFoundError, ValueError, RuntimeError) as error:
         raise HTTPException(status_code=400, detail=str(error)) from error
 
-    return {"similar_cases": similar_cases, **proposals}
+    return {"similar_cases": similar_cases, "stats": get_dashboard_stats(), **proposals}
